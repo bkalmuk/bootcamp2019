@@ -8,25 +8,129 @@ body {
 /* Nav */
 .nav {
     height: 80px;
-    padding: 0px 20%; 
+    padding: 0px 20%;
+    background: #d1edf0;
 }
 .nav div {
     font-weight: bold;
     width: 160px;
-    border: 1px solid red;
-    text-align: center;
-    font-size: 24px;
+    text-align: right;
+    font-size: 22px;
     float: right;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .nav div:hover{
     color:#2cb5e8;
 }
-
+.nav .logo {
+    float: left;
+    background-color: rgb(229, 250, 240);
+    border-radius: 20px;
+}
+.nav .logo img{
+    width: auto;
+    height: 100px;
+}
 /* Header */
 .header {
-    padding: 0px 20%; 
+    padding: 100px 20% 0px 20%;
     height: 300px;
+    text-align: center;
     background-image: linear-gradient(141deg, #65d3a3 0%, #1fc8db 51%, #2cb5e8 75%);
-    /* main */
+}
+.header .header-text {
+    width: 50%;
+    float: left;
+    color: white;
+    padding-top: 50px;
+}
+
+.header .header-img {
+    width: 50%;
+    float: right;
+}
+.header img {
+    width: auto;
+    height: 220px;
+}
+
+/* Main */
+.main {
+    padding: 25px 20%;
+    text-align: center;
+    background-image: url("../images/bg-pattern.jpg");
+}
+.main button {
+    padding: 15px;
+    width: 250px;
+    background-color: #1fc8db;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+.main button:hover {
+    background-color: #65d3a3;
+    width: 270px;
+}
+/* Calculator  */
+.calculator {
+    padding: 20px 20%;
+    text-align: center;
+
+}
+.calculator input {
+    padding: 10px;
+}
+.calculator p {
+    padding: 10px;
+    height: 25px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.calculator button {
+    padding: 10px;
+    width: 150px;
+    background-color: #1fc8db;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    display: inline-block;
+}
+.calculator button:hover {
+    background-color: #65d3a3;
+}
+/* Products area */
+.products-area {
+    padding: 0 20% 40% 20%;
+}
+.products-area .box {
+    width: 28%;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f6e7f8;
+    float: left;
+    text-align: center;
+    border: 1px solid #65d3a3;
+}
+.products-area .box img {
+    width: 80%;
+}
+.products-area .box .box-content {
+    text-align: left;
+}
+.products-area .box .box-content p:nth-child(3) {
+   color: rgb(41, 139, 168);
+   font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #65d3a3;
+    padding: 20px 20%;
+    color: white;
+    opacity: .9;
 }
